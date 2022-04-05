@@ -38,3 +38,12 @@ def function_sort():
         print(list_nums)    
 function_sort()   
 '''
+'''
+Deciamal numbers to binary numbers converter
+def decimal_binary(val):
+    if val >= 1:
+       decimal_binary(val // 2)
+    print(val % 2, end='')
+
+decimal_binary(23)
+'''
