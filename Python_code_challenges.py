@@ -47,3 +47,17 @@ def decimal_binary(val):
 
 decimal_binary(23)
 '''
+'''
+#Find equal vowels y is not
+def vowels():
+    word = 'konnlakskraavi'
+    words = [['a'], ['e'], ['i'], ['o'], ['u']]
+    empty = []
+    for x in range(0, len(word)):
+        empty.append([word[x]])
+    for xa in empty:
+        for xu in words:
+            if xu == xa:
+                print('equal', xa)
+vowels()
+'''
