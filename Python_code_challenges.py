@@ -61,3 +61,9 @@ def vowels():
                 print('equal', xa)
 vowels()
 '''
+'''
+#Hide credit card digit numbders show only last 4 numbers
+def credit_card(self):
+    print(str(self)[-4:].rjust(len(str(self)), "*"))   
+credit_card(1234567890123456)
+'''
